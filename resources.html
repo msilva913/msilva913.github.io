@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Resources for researchers and students in macroeconomics — data sources, computational tools, and writing guides curated by Mario Rafael Silva." />
+  <title>Resources — Mario Rafael Silva</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<script src="nav.js"></script>
+
+<main>
+  <div class="page-header fade-in">
+    <h1>Resources</h1>
+    <p class="subtitle">Data &middot; Computation &middot; Writing &middot; AI</p>
+  </div>
+
+  <p style="padding: 32px 0 0; font-size:.97rem; color:var(--ink-soft); max-width:580px;">
+    A curated reference list for researchers and students in macroeconomics and related fields. It covers data sources, computational tools, and writing guides I return to regularly.
+  </p>
+
+  <!-- WRITING -->
+  <div class="resource-section" style="margin-top:40px;">
+    <h2>Writing</h2>
+    <ul class="resource-list">
+      <li>
+        <span class="r-name"><a href="https://www.gutenberg.org/ebooks/37134" target="_blank" rel="noopener">Elements of Style</a></span>
+        <span class="r-desc">William Strunk Jr. and E.B. White. The standard reference for clear, concise English prose.</span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- DATA -->
+  <div class="resource-section">
+    <h2>Data</h2>
+    <ul class="resource-list">
+      <li>
+        <span class="r-name"><a href="https://www.census.gov/programs-surveys/cps.html" target="_blank" rel="noopener">Current Population Survey (CPS)</a></span>
+        <span class="r-desc">Primary source of U.S. labor force statistics. Administered by the Census Bureau under the Bureau of Labor Statistics.</span>
+      </li>
+      <li>
+        <span class="r-name"><a href="https://www.census.gov/sipp/" target="_blank" rel="noopener">Survey of Income and Program Participation (SIPP)</a></span>
+        <span class="r-desc">Short panel covering employment status, earnings, income, and demographics at monthly frequency.</span>
+      </li>
+      <li>
+        <span class="r-name"><a href="https://www.bls.gov/cex/" target="_blank" rel="noopener">Consumer Expenditure Survey (CEX)</a></span>
+        <span class="r-desc">Continuous data on U.S. consumer purchasing habits; consists of a quarterly interview panel and a diary component.</span>
+      </li>
+      <li>
+        <span class="r-name"><a href="https://www.federalreserve.gov/scf.htm" target="_blank" rel="noopener">Survey of Consumer Finances (SCF)</a></span>
+        <span class="r-desc">Triennial household survey covering balance sheets, pensions, income, and demographic characteristics.</span>
+      </li>
+      <li>
+        <span class="r-name"><a href="https://wrds-www.wharton.upenn.edu/" target="_blank" rel="noopener">Compustat (via WRDS)</a></span>
+        <span class="r-desc">Balance sheet variables for publicly traded firms. Available through Wharton Research Data Services; subscription required.</span>
+      </li>
+      <li>
+        <span class="r-name"><a href="https://www.bls.gov/tus/" target="_blank" rel="noopener">American Time Use Survey (ATUS)</a></span>
+        <span class="r-desc">Nationally representative U.S. time-diary survey. Extract builder available via IPUMS.</span>
+      </li>
+      <li>
+        <span class="r-name"><a href="https://www.frbsf.org/economic-research/indicators-data/total-factor-productivity-tfp/" target="_blank" rel="noopener">Utilization-Adjusted TFP</a></span>
+        <span class="r-desc">Real-time quarterly TFP series adjusted for utilization, following Basu, Fernald, and Kimball (2006). San Francisco Fed.</span>
+      </li>
+      <li>
+        <span class="r-name"><a href="https://barnichon.github.io/data.html" target="_blank" rel="noopener">Composite Help-Wanted Index</a></span>
+        <span class="r-desc">A composite vacancy index developed by Regis Barnichon.</span>
+      </li>
+      <li>
+        <span class="r-name"><a href="https://www.census.gov/programs-surveys/bds.html" target="_blank" rel="noopener">Business Dynamics Statistics (BDS)</a></span>
+        <span class="r-desc">Annual establishment-level data on gross job creation and destruction starting in 1976, derived from the Longitudinal Business Database.</span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- COMPUTATION: MACRO -->
+  <div class="resource-section">
+    <h2>Computation — Macroeconomics</h2>
+    <ul class="resource-list">
+      <li>
+        <span class="r-name"><a href="https://quantecon.org" target="_blank" rel="noopener">QuantEcon</a></span>
+        <span class="r-desc">Open-source libraries and lectures on quantitative economics in Python and Julia, by Thomas J. Sargent and John Stachurski.</span>
+      </li>
+      <li>
+        <span class="r-name"><a href="https://gianluca.violante.googlepages.com/teaching.html" target="_blank" rel="noopener">Notes on Quantitative Macroeconomics</a></span>
+        <span class="r-desc">Gianluca Violante. Comprehensive lecture notes covering modern quantitative macro methods.</span>
+      </li>
+      <li>
+        <span class="r-name"><a href="https://alisdairmckay.com/Notes/HetAgents/index.html" target="_blank" rel="noopener">Heterogeneous-Agent Macroeconomics</a></span>
+        <span class="r-desc">Computational notes by Alisdair McKay. Covers Aiyagari, Krusell–Smith, and related models with Julia/Python code.</span>
+      </li>
+      <li>
+        <span class="r-name"><a href="https://web.sas.upenn.edu/schorf/estimation-of-dynamic-stochastic-general-equilibrium-models/" target="_blank" rel="noopener">Bayesian Estimation of DSGE Models</a></span>
+        <span class="r-desc">Slides and code by Herbst and Schorfheide.</span>
+      </li>
+      <li>
+        <span class="r-name"><a href="https://www.richmondfed.org/research/people/evans" target="_blank" rel="noopener">GMM Notes</a></span>
+        <span class="r-desc">Notes and examples on Generalized Method of Moments by Richard W. Evans.</span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- COMPUTATION: JULIA -->
+  <div class="resource-section">
+    <h2>Computation — Julia</h2>
+    <ul class="resource-list">
+      <li>
+        <span class="r-name"><a href="https://julia.quantecon.org" target="_blank" rel="noopener">Quantitative Economics with Julia</a></span>
+        <span class="r-desc">Sargent and Stachurski via QuantEcon. The standard entry point for Julia applied to economics.</span>
+      </li>
+      <li>
+        <span class="r-name"><a href="http://julia.math.fsu.edu/NumericalAnalysisJulia/book.pdf" target="_blank" rel="noopener">Numerical Analysis with Julia</a></span>
+        <span class="r-desc">Giray Okten. Covers root-finding, interpolation, numerical integration, and ODEs.</span>
+      </li>
+      <li>
+        <span class="r-name"><a href="https://techytok.com/from-zero-to-julia/" target="_blank" rel="noopener">From Zero to Julia</a></span>
+        <span class="r-desc">Blog series by Aurelio Amerio. Particularly useful for researchers coming from Python or MATLAB.</span>
+      </li>
+      <li>
+        <span class="r-name"><a href="https://docs.julialang.org" target="_blank" rel="noopener">Official Julia Documentation</a></span>
+        <span class="r-desc">The definitive language reference at docs.julialang.org.</span>
+      </li>
+      <li>
+        <span class="r-name"><a href="https://www.youtube.com/user/JuliaLanguage" target="_blank" rel="noopener">Official Julia Tutorial (YouTube)</a></span>
+        <span class="r-desc">Video tutorials from the Julia Language channel.</span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- COMPUTATION: PYTHON -->
+  <div class="resource-section">
+    <h2>Computation — Python</h2>
+    <ul class="resource-list">
+      <li>
+        <span class="r-name"><a href="https://python.quantecon.org" target="_blank" rel="noopener">Quantitative Economics with Python</a></span>
+        <span class="r-desc">Sargent and Stachurski via QuantEcon. Parallel to the Julia lectures; covers the full stack for quantitative macro.</span>
+      </li>
+      <li>
+        <span class="r-name"><a href="https://developers.google.com/edu/python" target="_blank" rel="noopener">Google's Python Class</a></span>
+        <span class="r-desc">Free course from Google for people with some programming background.</span>
+      </li>
+      <li>
+        <span class="r-name"><a href="https://realpython.com" target="_blank" rel="noopener">Real Python</a></span>
+        <span class="r-desc">Video lectures and tutorials on Python, from beginner through advanced topics.</span>
+      </li>
+      <li>
+        <span class="r-name"><a href="https://github.com/PacktPublishing/Pandas-Cookbook" target="_blank" rel="noopener">Pandas Cookbook</a></span>
+        <span class="r-desc">Recipes for scientific computing with Pandas. Practical reference for data wrangling.</span>
+      </li>
+      <li>
+        <span class="r-name"><a href="https://medium.com/swlh/7-python-tricks-to-make-code-better-and-smarter-48af4aabc2e9" target="_blank" rel="noopener">7 Python Tricks</a></span>
+        <span class="r-desc">Practical tips for writing cleaner and more efficient Python code.</span>
+      </li>
+      <li>
+        <span class="r-name"><a href="https://towardsdatascience.com/make-your-own-super-pandas-using-multiproc-1c04f41f67f" target="_blank" rel="noopener">Speed Up Pandas with Dask or Swifter</a></span>
+        <span class="r-desc">How to parallelize <code>apply</code> operations on large DataFrames.</span>
+      </li>
+      <li>
+        <span class="r-name"><a href="https://www.datacamp.com" target="_blank" rel="noopener">DataCamp</a></span>
+        <span class="r-desc">Interactive courses on Python, R, and data science tools.</span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- AI TOOLS -->
+  <div class="resource-section">
+    <h2>AI-Assisted Research and Coding</h2>
+    <ul class="resource-list">
+      <li>
+        <span class="r-name"><a href="https://claude.ai" target="_blank" rel="noopener">Claude (Anthropic)</a></span>
+        <span class="r-desc">My primary AI assistant for research and coding tasks. Particularly useful for drafting and editing prose, debugging Julia and Python code, and cleanly integrating draft exposition with coding. Claude's ability to reason carefully about economics and handle long technical documents makes it well-suited for research work.</span>
+      </li>
+      <li>
+        <span class="r-name"><a href="https://code.visualstudio.com" target="_blank" rel="noopener">VS Code with GitHub Copilot</a></span>
+        <span class="r-desc">VS Code is my preferred editor for Julia and Python; with GitHub Copilot integrated, it offers inline code suggestions that meaningfully speed up writing numerical routines, data pipelines, and simulation code. Especially effective for boilerplate-heavy tasks like setting up solvers or formatting output.</span>
+      </li>
+    </ul>
+  </div>
+
+</main>
+
+</body>
+</html>
